@@ -10,8 +10,8 @@ function App() {
     <Router>
     <div className="App">
       <Header/>
-      <Route path="/addProject" component={AddProject}/>
-      <Route path="/dashboard" component={Dashboard}/>
+      <Route exact path="/addProject" component={AddProject}/>
+      <Route exact path="/dashboard" component={Dashboard}/>
     </div>
     </Router>
   );
